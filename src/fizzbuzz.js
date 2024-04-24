@@ -2,7 +2,7 @@ const answer = []
 
 // Write your code below this line
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 15; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     answer.push('FizzBuzz')
   } else if (i % 3 === 0) {
